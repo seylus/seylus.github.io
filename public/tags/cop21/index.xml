@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COP21 on Ulysse Pasquier</title>
+    <link>/tags/cop21/</link>
+    <description>Recent content in COP21 on Ulysse Pasquier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
+    <lastBuildDate>Mon, 16 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/cop21/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COP21: The Anchor to the Storm in Paris</title>
+      <link>/post/cop21/</link>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cop21/</guid>
+      <description>This post was originally written for the EnvEast Doctoral Training Partnership student blog. EnvEast is a collaboration between three UK universities, including University of East Anglia where I am carrying out my PhD. The blog can be found here
+&amp;ldquo;Fluctuat Nec Mergitur&amp;rdquo; &amp;ldquo;Battu par les flots, mais ne sombre pas. Tossed by the sea, but not sunk.&amp;rdquo;
+The centuries-old motto, which appears on the French capital&amp;rsquo;s crest, has been a central rallying cry in the wake of the Paris attacks.</description>
+    </item>
+    
+  </channel>
+</rss>

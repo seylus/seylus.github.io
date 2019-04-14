@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hydraulic modelling on Ulysse Pasquier</title>
+    <link>/tags/hydraulic-modelling/</link>
+    <description>Recent content in hydraulic modelling on Ulysse Pasquier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
+    <lastBuildDate>Wed, 10 Apr 2019 14:15:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/hydraulic-modelling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrating stakeholder and scientific knowledge of future flood risk to inform climate change adaptation planning in a coastal region</title>
+      <link>/talk/egu2019/</link>
+      <pubDate>Wed, 10 Apr 2019 14:15:00 +0200</pubDate>
+      
+      <guid>/talk/egu2019/</guid>
+      <description>Talk at EGU2019</description>
+    </item>
+    
+    <item>
+      <title>An integrated 1D–2D hydraulic modelling approach to assess the sensitivity of a coastal region to compound flooding hazard under climate change</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linking science and policy for climate change adaptation</title>
+      <link>/talk/ceeda2018/</link>
+      <pubDate>Tue, 10 Apr 2018 14:15:00 +0200</pubDate>
+      
+      <guid>/talk/ceeda2018/</guid>
+      <description>Talk at CEEDA2018</description>
+    </item>
+    
+    <item>
+      <title>1D-2D Hydraulic Modelling</title>
+      <link>/talk/evan2017/</link>
+      <pubDate>Sun, 10 Sep 2017 14:15:00 +0200</pubDate>
+      
+      <guid>/talk/evan2017/</guid>
+      <description>Talk at EVAN2017</description>
+    </item>
+    
+  </channel>
+</rss>

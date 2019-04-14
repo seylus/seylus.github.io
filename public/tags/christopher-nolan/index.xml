@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher Nolan on Ulysse Pasquier</title>
+    <link>/tags/christopher-nolan/</link>
+    <description>Recent content in Christopher Nolan on Ulysse Pasquier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
+    <lastBuildDate>Wed, 22 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/christopher-nolan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Delving into Dreams</title>
+      <link>/post2/dreams/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post2/dreams/</guid>
+      <description>The portrayal of dreams in movies and books is a challenging task which often leads to fascinating results. Here I look at the links between Inception and Shutter Island and how a short poem by Edgar Allan Poe could very well have inspired both.</description>
+    </item>
+    
+  </channel>
+</rss>

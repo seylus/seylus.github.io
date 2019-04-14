@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ulysse Pasquier</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Ulysse Pasquier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
+    <lastBuildDate>Mon, 06 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[R] Plotting results from extRemes package - Extreme Value Analysis</title>
+      <link>/post/rextremes/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rextremes/</guid>
+      <description>If you are familiar with Extreme Value Analysis (EVA) in R you will have likely come across the extRemes package, written by Eric Gilleland. While I am not (yet!) an expert in EVA, I have found this package to be quite accessible.
+The package’s main function, ‘fevd()’, fits an extreme value distribution to data. Methods for plotting are available for objects of class ‘fevd’ to produce diagnostics and result plots, such as a return level plot.</description>
+    </item>
+    
+    <item>
+      <title>COP21: The Anchor to the Storm in Paris</title>
+      <link>/post/cop21/</link>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cop21/</guid>
+      <description>This post was originally written for the EnvEast Doctoral Training Partnership student blog. EnvEast is a collaboration between three UK universities, including University of East Anglia where I am carrying out my PhD. The blog can be found here
+&amp;ldquo;Fluctuat Nec Mergitur&amp;rdquo; &amp;ldquo;Battu par les flots, mais ne sombre pas. Tossed by the sea, but not sunk.&amp;rdquo;
+The centuries-old motto, which appears on the French capital&amp;rsquo;s crest, has been a central rallying cry in the wake of the Paris attacks.</description>
+    </item>
+    
+    <item>
+      <title>The environmental paradox behind the Tianjin explosions</title>
+      <link>/post/tianjin/</link>
+      <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tianjin/</guid>
+      <description>From water scarcity to air pollution, without forgetting world-leading greenhouse gas emissions, China is facing a multi-faceted environmental crisis. I was able to witness the extent of the issue first hand when I studied Environmental Management at Tsinghua University in Beijing as part of a joint program with the French university Mines ParisTech. The resounding blow of the August 12th explosions in Tianjin - which killed over a hundred people - has now pulled me back to that time spent in the &amp;ldquo;Middle Kingdom&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
