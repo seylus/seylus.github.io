@@ -13,20 +13,20 @@
     
     
     <item>
+      <title>Climate Change</title>
+      <link>/tags/climate-change/</link>
+      <pubDate>Wed, 10 Apr 2019 14:15:00 +0200</pubDate>
+      
+      <guid>/tags/climate-change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>adaptation</title>
       <link>/tags/adaptation/</link>
       <pubDate>Wed, 10 Apr 2019 14:15:00 +0200</pubDate>
       
       <guid>/tags/adaptation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>climate change</title>
-      <link>/tags/climate-change/</link>
-      <pubDate>Wed, 10 Apr 2019 14:15:00 +0200</pubDate>
-      
-      <guid>/tags/climate-change/</guid>
       <description></description>
     </item>
     
@@ -54,15 +54,6 @@
       <pubDate>Wed, 10 Apr 2019 14:15:00 +0200</pubDate>
       
       <guid>/tags/stakeholder-engagement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Environment</title>
-      <link>/tags/environment/</link>
-      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/environment/</guid>
       <description></description>
     </item>
     
@@ -117,6 +108,15 @@
       <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/yuval-noah-harari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environment</title>
+      <link>/tags/environment/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/environment/</guid>
       <description></description>
     </item>
     
