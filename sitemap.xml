@@ -2,20 +2,8 @@
   
     <url>
     
-      <loc>/post/</loc>
-      <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/post/test-rmd/</loc>
-      <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+      <loc>/tags/climate-change/</loc>
+      <lastmod>2019-04-10T14:15:00+02:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -40,14 +28,14 @@
   
     <url>
     
-      <loc>/tags/adaptation/</loc>
+      <loc>/</loc>
       <lastmod>2019-04-10T14:15:00+02:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/tags/climate-change/</loc>
+      <loc>/tags/adaptation/</loc>
       <lastmod>2019-04-10T14:15:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -310,6 +298,12 @@
   
     <url>
     
+      <loc>/post/</loc>
+      <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/tags/r/</loc>
       <lastmod>2017-02-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -324,7 +318,7 @@
   
     <url>
     
-      <loc>/post/rextremes/</loc>
+      <loc>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</loc>
       <lastmod>2017-02-06T00:00:00+00:00</lastmod>
     </url>
   

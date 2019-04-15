@@ -14,10 +14,10 @@
     
     <item>
       <title>[R] Plotting results from extRemes package - Extreme Value Analysis</title>
-      <link>/post/rextremes/</link>
+      <link>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/rextremes/</guid>
+      <guid>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</guid>
       <description>If you are familiar with Extreme Value Analysis (EVA) in R you will have likely come across the extRemes package, written by Eric Gilleland. While I am not (yet!) an expert in EVA, I have found this package to be quite accessible.
 The package’s main function, ‘fevd()’, fits an extreme value distribution to data. Methods for plotting are available for objects of class ‘fevd’ to produce diagnostics and result plots, such as a return level plot.</description>
     </item>

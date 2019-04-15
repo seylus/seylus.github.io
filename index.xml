@@ -6,22 +6,8 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
-    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 14:15:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Test Rmd</title>
-      <link>/post/test-rmd/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/test-rmd/</guid>
-      <description>
-
-
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;print(&amp;quot;some R&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;some R&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
     
     <item>
       <title>Integrating stakeholder and scientific knowledge of future flood risk to inform climate change adaptation planning in a coastal region</title>
@@ -125,10 +111,10 @@
     
     <item>
       <title>[R] Plotting results from extRemes package - Extreme Value Analysis</title>
-      <link>/post/rextremes/</link>
+      <link>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/rextremes/</guid>
+      <guid>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</guid>
       <description>
 
 
@@ -142,7 +128,7 @@
 data(&amp;quot;damage&amp;quot;, package = &amp;quot;extRemes&amp;quot;)
 fitD &amp;lt;- fevd(Dam, damage, threshold = 6, type = &amp;quot;GP&amp;quot;, time.units = &amp;quot;2.06/year&amp;quot;)
 plot(fitD, type = &amp;quot;rl&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/Rextremes/index_files/figure-html/load%20data-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-r-plotting-results-from-extremes-package-extreme-value-analysis_files/figure-html/load%20data-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;You have to play with the original code for the package’s plot functions. When using the Maximum Likelihood Estimation (MLE) method, the function to change is &lt;strong&gt;‘plot.fevd.mle’&lt;/strong&gt;. If you are satisfied with the overall default aspect of the plots and just need to tweak it you can customise the code and reload the function. However, I generally use &lt;strong&gt;ggplot2&lt;/strong&gt; to produce my figures and like to have a consistent template.&lt;/p&gt;
 &lt;p&gt;Once you have your &lt;strong&gt;‘fevd’&lt;/strong&gt; object you will get the information you need to draw a Return Level plot with the following two functions (other types of plots and distributions will use a different section from &lt;strong&gt;plot.fevd.mle&lt;/strong&gt;).&lt;/p&gt;
 &lt;p&gt;The first returns a dataframe of return level point coordinates:&lt;/p&gt;
@@ -188,7 +174,7 @@ ggplot() +
   scale_x_log10(expand = c(0, 0), breaks = c(2,5,10,20,50,100,200,500)) +
   theme_bw() +
   theme(axis.text = element_text(size=12), axis.title = element_text(size = 14, face = &amp;quot;bold&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/Rextremes/index_files/figure-html/plot%20returnlevels-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-r-plotting-results-from-extremes-package-extreme-value-analysis_files/figure-html/plot%20returnlevels-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -408,6 +394,64 @@ But a dream within a dream?&lt;/p&gt;
 &lt;p&gt;Do you see any other similarities between the movies, or with any other work? Let me know in a comment!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/dreams.png&#34; alt=&#34;dreams&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Psychos &amp; Lambs</title>
+      <link>/post2/psycho/</link>
+      <pubDate>Wed, 08 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post2/psycho/</guid>
+      <description>&lt;p&gt;Looking aimlessly for something to do on a Sunday afternoon, I finally found myself watching Psycho by Alfred Hitchcock. It wasn&amp;rsquo;t the first time I had seen the classic horror-thriller but for some reason the film grabbed my attention and did not let go for the rest of that day. As Norman Bates presented his collection of stuffed birds to his would-be victim, I couldn&amp;rsquo;t help but feel I had already come across this somewhere else. Slowly coming into focus, this fleeting memory led me into a frenzied research through psychological horror literature and cinema. Not the most comforting hobby before going to bed! Despite how unlikely - and slightly eerie - some of them are, the connections I stumbled upon speak a great deal for the success of the themes portrayed in this genre.&lt;/p&gt;
+
+&lt;p&gt;I am not one to call all taxidermists, psychos, but Bates&amp;rsquo; uneasy description of his favourite occupation is what set me off. In a room full of dead birds, the unsuspecting Crane - Marion Crane that is - was bound to share the same fate as the animals rather than being famously murdered in the shower by her host. This untrustworthy welcome was the second hint I needed. The memory I was holding on to was of a short story I had studied in English class over 10 years ago: &lt;a href=&#34;https://www.teachingenglish.org.uk/sites/teacheng/files/landlady_text.pdf&#34; target=&#34;_blank&#34;&gt;The Landlady&lt;/a&gt; by Roald Dahl.&lt;/p&gt;
+
+&lt;p&gt;In this 5-pager, Dahl describes a young man booking into a bed and breakfast only to realize that he is alone apart from a cheerful landlady and her stuffed house-pets. As he signs the guest book, he finds that just two other names have been registered in the past three years, names he seems to recall were in the newspaper and somehow connected. The landlady playfully assures him both men, whom she describes as &amp;ldquo;tall, young and handsome, just like her new visitor&amp;rdquo;, are still upstairs. She brushes off her guest&amp;rsquo;s questions with a cup of tea as he continues to stare at her dead animal companions.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“It must be most awfully difficult to do a thing like that.” “Not in the least,” she said. “I  stuff all my little pets myself when they pass away. Will you have another cup of tea?” “No, thank you,” Billy said. The tea tasted faintly of bitter almonds, and he didn’t much care for it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The almond taste suggests the young man is being poisoned with cyanide. Dahl manages to depict a morbid and sinister atmosphere, subtly implying the protagonist is soon to join his host&amp;rsquo;s stuffed collection. The surprise I felt when seeing the author of such a story was Roald Dahl - whom I now associated with tales such as Charlie and the Chocolate Factory or James and the Giant Peach - was quickly overshadowed by the discovery of The Landlady&amp;rsquo;s strong similarities to Psycho.&lt;/p&gt;
+
+&lt;p&gt;It is of course not uncommon for short stories to inspire films and vice versa. After all, the Landlady was published in The New Yorker magazine for the first time in November 1959 while Psycho came out in 1960. I was perplexed however to see no evidence or statement linking the two together. My interest was further fuelled by an innocuous line in Dahl&amp;rsquo;s short story where the landlady mistakes the young boy&amp;rsquo;s name for &amp;ldquo;Mr. Perkins&amp;rdquo;. Anthony Perkins is the actor behind Norman Bates&amp;rsquo; terrifying smile but this must be a coincidence as the movie came out a year after. Though what a coincidence!&lt;/p&gt;
+
+&lt;p&gt;The Landlady was later adapted in a 20-minute episode of Alfred Hitchcock Presents in 1961, though he did not direct it himself. Dahl and Hitchcock undeniably shared the same interests in the macabre and another of Dahl&amp;rsquo;s stories was later adapted to TV. &lt;a href=&#34;http://www.classicshorts.com/stories/lamb.html&#34; target=&#34;_blank&#34;&gt;Lamb to the Slaughter&lt;/a&gt; sets a similar tone as the Landlady but deals with a woman killing her leaving husband with a leg of lamb before serving it to the detectives who&amp;rsquo;ve come to investigate the murder. Interestingly enough it is this adaptation and not that of The Landlady that was chosen to appear in a special edition DVD of Hitchcock&amp;rsquo;s Psycho.&lt;/p&gt;
+
+&lt;p&gt;Lamb to the Slaughter&amp;rsquo;s title immediately made me think of the 1988 book by Thomas Harris, and later movie, The Silence of the Lambs:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;I woke up in the dark and the lambs were screaming&amp;rdquo; &amp;ldquo;They were slaughtering the spring lambs?&amp;rdquo; &amp;ldquo;And they were screaming&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The chilling conversation between Hannibal Lecter and FBI agent Clarice Starling about her traumatic childhood experience is almost a direct callback to Dahl&amp;rsquo;s story. A parallel can moreover be made between the detectives who unknowingly eat a piece of evidence to a murder and Lecter&amp;rsquo;s cannibalistic habits.&lt;/p&gt;
+
+&lt;p&gt;As a fun side note, it seems Anthony ___kins&amp;rsquo; have a flair for playing psychopathic mass murderers. After Anthony Perkins, Anthony Hopkins is the disturbing psycho in charge of scaring us in the movie version of Silence of the Lambs as Hannibal. It is not surprising that the two characters were elected #2 and #1 respectively in &lt;a href=&#34;http://www.afi.com/100years/handv.aspx&#34; target=&#34;_blank&#34;&gt;AFI&amp;rsquo;s list of all time greatest movie villains&lt;/a&gt;. On a second side note&amp;hellip;Hopkins also took on the role of Hitchcock in the 2012 eponymous movie! But let&amp;rsquo;s get back on track, or as you would say in French, revenons à nos moutons (literally, let&amp;rsquo;s go back to our sheep).&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;img src=&#34;/img/hitchcock.jpg&#34; alt=&#34;hitchcock&#34; /&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Anthony Hopkins as Alfred Hitchcock (Hitchcock, 2012)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In Silence of the Lambs, Clarice Starling is tasked with finding Buffalo Bill, a serial killer who skins his victims to make a &amp;ldquo;woman suit&amp;rdquo; for himself. This was directly inspired by the true story of Ed Gein, accused in 1957 of having similar intentions after murdering two women in Wisconsin, U.S. In fact, the tale became famous within the wider public through Robert Bloch&amp;rsquo;s 1959 fictionalized version in his novel, Psycho, which Hitchcock then adapted to the big screen. We&amp;rsquo;ve come full circle!&lt;/p&gt;
+
+&lt;p&gt;Psycho, Roald Dahl&amp;rsquo;s short stories and Silence of the Lambs are inter-connected in more ways than one. The act of skinning and taxidermy is not just an instrument for writers to materialize the fear and anxiety of death. An entire psychoanalytic study could be carried out on the similarities between the mindsets of all the mentioned killers. From the seemingly friendly landlady to Buffalo Bill, they all keep trophies of things they desire, or as Hannibal Lecter puts it, things they &amp;ldquo;covet&amp;rdquo;. The landlady says to be &amp;ldquo;picky&amp;rdquo; with her choice of tenants, while Norman Bate&amp;rsquo;s murderous personality comes out when he is attracted to a woman.&lt;/p&gt;
+
+&lt;p&gt;Bate&amp;rsquo;s own &amp;ldquo;woman suit&amp;rdquo; is the disguise of his dead mother further arching back to the trauma of loss, the trauma of screaming lambs. The different individuals manage to hide in plain sight in all the stories despite devastating mental disorders. This makes for great psychological horror stories that have stood the test of time as we all have to deal with our own screaming lambs.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/psycho-lambs.png&#34; alt=&#34;psycho-lambs&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
