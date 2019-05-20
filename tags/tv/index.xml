@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Psychology on Ulysse Pasquier</title>
-    <link>/tags/psychology/</link>
-    <description>Recent content in Psychology on Ulysse Pasquier</description>
+    <title>TV on Ulysse Pasquier</title>
+    <link>/tags/tv/</link>
+    <description>Recent content in TV on Ulysse Pasquier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
     <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/psychology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>/post2/got8/</guid>
       <description>Madness in literature and film is a powerful and gripping theme at the center of many classic tragic stories. The psychology of anti-heroes moving towards their seemingly inevitable downfall raises deep questions over our minds&amp;rsquo; capacity for self-destruction. Daenerys Targaryen from Game of Thrones very much follows this character arc in her transformation from a just and lovable Khaleesi into the Mad Queen. The burning of King&amp;rsquo;s Landing in Season 8 Episode 5 had all the ingredients to fulfil a descent into madness worthy of Shakespearian plays.</description>
-    </item>
-    
-    <item>
-      <title>How to Avoid the Tribal Trap of Stories</title>
-      <link>/post2/areo1/</link>
-      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post2/areo1/</guid>
-      <description>A new piece of mine was featured in Areo Magazine. Here is a synopsis:
-In Sapiens: A Brief History of Humankind, Yuval Noah Harari highlights the importance of stories (religious, national, etc&amp;hellip;) as the basis for human cooperation and of our modern societies. Stories are able to fill that role because of the way they shape how we think and provide shared morals. Cognitive research shows that we use analogy-based mental models to interpret and understand our reality.</description>
     </item>
     
   </channel>
