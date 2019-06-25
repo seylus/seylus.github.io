@@ -2,6 +2,81 @@
   
     <url>
     
+      <loc>/tags/gis/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/hbo/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/post/r-incidence-of-thyroid-cancer-in-post-chernobyl-belarus-making-an-animated-map/chernobyl-thyroid-tmap/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/chernobyl/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/data-science/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/tmap/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/visualization/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/authors/</loc>
       <lastmod>2019-05-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -35,13 +110,6 @@
   
     <url>
     
-      <loc>/tags/hbo/</loc>
-      <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/tags/jorah-mormont/</loc>
       <lastmod>2019-05-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -64,20 +132,6 @@
     <url>
     
       <loc>/tags/tv/</loc>
-      <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/</loc>
       <lastmod>2019-05-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -346,19 +400,6 @@
   
     <url>
     
-      <loc>/post/</loc>
-      <lastmod>2017-02-06T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2017-02-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/tags/statistics/</loc>
       <lastmod>2017-02-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -366,7 +407,7 @@
   
     <url>
     
-      <loc>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</loc>
+      <loc>/post/r-plotting-results-from-extremes-packages-extreme-value-analysis/extremes-return-level-plot/</loc>
       <lastmod>2017-02-06T00:00:00+00:00</lastmod>
     </url>
   
@@ -433,7 +474,7 @@
   
     <url>
     
-      <loc>/post/cop21/</loc>
+      <loc>/post/cop21-the-anchor-to-the-storm-in-paris/</loc>
       <lastmod>2015-11-16T00:00:00+00:00</lastmod>
     </url>
   
@@ -467,7 +508,7 @@
   
     <url>
     
-      <loc>/post/tianjin/</loc>
+      <loc>/post/the-environmental-paradox-behind-the-tianjin-explosions/</loc>
       <lastmod>2015-08-19T00:00:00+00:00</lastmod>
     </url>
   

@@ -6,8 +6,25 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
-    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[R] Incidence of Thyroid Cancer in post-Chernobyl Belarus - Making an Animated Map</title>
+      <link>/post/r-incidence-of-thyroid-cancer-in-post-chernobyl-belarus-making-an-animated-map/chernobyl-thyroid-tmap/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-incidence-of-thyroid-cancer-in-post-chernobyl-belarus-making-an-animated-map/chernobyl-thyroid-tmap/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/img/Chernobyl_Thyroid.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;HBO’s latest mini-series &lt;em&gt;Chernobyl&lt;/em&gt; is both haunting and gripping in retelling the events that followed the night of April 26th 1986. The show is not only a fascinating window into the Soviet world that once was, it also serves as a contemporary reminder of “what is the cost of lies”, to quote the final episode’s ultimate line.&lt;/p&gt;
+&lt;p&gt;The explosion of the Chernobyl Nuclear Power Plant’s reactor 4 was an environmental and human disaster that impacted countless lives across Europe. Children in neighbouring countries at the time of the incident were particularly affected by the emitted radiation, with rates of cancer increasing in the following years.&lt;/p&gt;
+&lt;p&gt;The above animated map shows the incidence of thyroid cancer in Belarus from 1981 to 2002. It was created in &lt;code&gt;R&lt;/code&gt; using the &lt;code&gt;tmap&lt;/code&gt; and &lt;code&gt;sf&lt;/code&gt; packages, with data from &lt;a href=&#34;https://doi.org/10.1002/ijc.22037&#34; target=&#34;_blank&#34;&gt;Cardis et al. (2006)&lt;/a&gt;. The code to create the animation is the following:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/seylus/d13e45781165747b656b25be8d82739e.js?file=chernobyl_thyroid.R&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Daenerys&#39; Descent into Madness</title>
@@ -167,10 +184,10 @@
     
     <item>
       <title>[R] Plotting results from extRemes package - Extreme Value Analysis</title>
-      <link>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</link>
+      <link>/post/r-plotting-results-from-extremes-packages-extreme-value-analysis/extremes-return-level-plot/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/r-plotting-results-from-extremes-package-extreme-value-analysis/</guid>
+      <guid>/post/r-plotting-results-from-extremes-packages-extreme-value-analysis/extremes-return-level-plot/</guid>
       <description>
 
 
@@ -184,7 +201,7 @@
 data(&amp;quot;damage&amp;quot;, package = &amp;quot;extRemes&amp;quot;)
 fitD &amp;lt;- fevd(Dam, damage, threshold = 6, type = &amp;quot;GP&amp;quot;, time.units = &amp;quot;2.06/year&amp;quot;)
 plot(fitD, type = &amp;quot;rl&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-r-plotting-results-from-extremes-package-extreme-value-analysis_files/figure-html/load%20data-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/r-plotting-results-from-extremes-packages-extreme-value-analysis/index_files/figure-html/load%20data-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;You have to play with the original code for the package’s plot functions. When using the Maximum Likelihood Estimation (MLE) method, the function to change is &lt;strong&gt;‘plot.fevd.mle’&lt;/strong&gt;. If you are satisfied with the overall default aspect of the plots and just need to tweak it you can customise the code and reload the function. However, I generally use &lt;strong&gt;ggplot2&lt;/strong&gt; to produce my figures and like to have a consistent template.&lt;/p&gt;
 &lt;p&gt;Once you have your &lt;strong&gt;‘fevd’&lt;/strong&gt; object you will get the information you need to draw a Return Level plot with the following two functions (other types of plots and distributions will use a different section from &lt;strong&gt;plot.fevd.mle&lt;/strong&gt;).&lt;/p&gt;
 &lt;p&gt;The first returns a dataframe of return level point coordinates:&lt;/p&gt;
@@ -215,9 +232,13 @@ ci_df &amp;lt;- data.frame(c1, c2, c3, rperiods)
 return(ci_df)
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That is all you need to produce the plot in &lt;strong&gt;ggplot2&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-
-rlpoints &amp;lt;- getrlpoints(fitD)
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:
+##   method         from 
+##   [.quosures     rlang
+##   c.quosures     rlang
+##   print.quosures rlang&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rlpoints &amp;lt;- getrlpoints(fitD)
 ci_df &amp;lt;- getcidf(fitD)
 
 ggplot() +
@@ -230,7 +251,7 @@ ggplot() +
   scale_x_log10(expand = c(0, 0), breaks = c(2,5,10,20,50,100,200,500)) +
   theme_bw() +
   theme(axis.text = element_text(size=12), axis.title = element_text(size = 14, face = &amp;quot;bold&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-r-plotting-results-from-extremes-package-extreme-value-analysis_files/figure-html/plot%20returnlevels-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/r-plotting-results-from-extremes-packages-extreme-value-analysis/index_files/figure-html/plot%20returnlevels-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -263,10 +284,10 @@ ggplot() +
     
     <item>
       <title>COP21: The Anchor to the Storm in Paris</title>
-      <link>/post/cop21/</link>
+      <link>/post/cop21-the-anchor-to-the-storm-in-paris/</link>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>/post/cop21/</guid>
+      <guid>/post/cop21-the-anchor-to-the-storm-in-paris/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;This post was originally written for the &lt;strong&gt;EnvEast Doctoral Training Partnership&lt;/strong&gt; student blog. EnvEast is a collaboration between three UK universities, including &lt;strong&gt;University of East Anglia&lt;/strong&gt; where I am carrying out my PhD. The blog can be found &lt;a href=&#34;http://www.scienvy.co.uk/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -313,10 +334,10 @@ ggplot() +
     
     <item>
       <title>The environmental paradox behind the Tianjin explosions</title>
-      <link>/post/tianjin/</link>
+      <link>/post/the-environmental-paradox-behind-the-tianjin-explosions/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>/post/tianjin/</guid>
+      <guid>/post/the-environmental-paradox-behind-the-tianjin-explosions/</guid>
       <description>
 
 &lt;p&gt;From water scarcity to air pollution, without forgetting world-leading greenhouse gas emissions, China is facing a multi-faceted environmental crisis. I was able to witness the extent of the issue first hand when I studied Environmental Management at Tsinghua University in Beijing as part of a joint program with the French university Mines ParisTech. The resounding blow of the August 12th explosions in Tianjin - which killed over a hundred people - has now pulled me back to that time spent in the &amp;ldquo;Middle Kingdom&amp;rdquo;. Amidst the apparent lack of available information about the disaster and &lt;a href=&#34;http://www.theguardian.com/world/2015/aug/17/tianjin-explosions-fears-over-pollution-as-chinese-media-lambasts-officials&#34; target=&#34;_blank&#34;&gt;fears of cyanide pollution&lt;/a&gt;, a memory that stands out is my field trip to Tianjin in 2013, which highlights a revealing paradox.&lt;/p&gt;
@@ -374,82 +395,6 @@ ggplot() +
 &lt;p&gt;&lt;strong&gt;The aftermath of the accident&lt;/strong&gt; is just as puzzling. A week has passed and it is still unclear whether there remains a threat to the environment and Tianjin&amp;rsquo;s inhabitants. Distrust of governmental reports and a general lack of information have pushed some people living around the blast to leave the city as the &lt;a href=&#34;http://www.nytimes.com/2015/08/19/world/asia/china-identifies-executives-of-company-linked-to-tianjin-explosions.html?_r=0&#34; target=&#34;_blank&#34;&gt;New York Times showed yesterday&lt;/a&gt;. Anyone who has been to China has experienced censorship in some shape or form, even if it is as simple as a blocked access to Facebook (the horror&amp;hellip;). Here lies another contradiction. Transparency is indeed a key principle behind CSR. It is therefore difficult for the government to expect private companies to respect sustainable performance goals as long as the censor-culture still exists.&lt;/p&gt;
 
 &lt;p&gt;While the whole story is more complex, the symbolic proximity of forward-looking projects to such alarming devastation only further fuels the notion that there are still two Chinas when it comes to sustainability. The country has the resources, capacity and knowledge to work towards its environmental goals, but still needs to &lt;strong&gt;translate its ambitions&lt;/strong&gt; within society and notably with certain members of the industrial sector.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Delving into Dreams</title>
-      <link>/blogpost/dreams/delving-into-dreams/</link>
-      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/blogpost/dreams/delving-into-dreams/</guid>
-      <description>
-
-&lt;p&gt;In the summer of 2010, like many others I was captivated by the mind-bending storyline and visuals of Christopher Nolan&amp;rsquo;s &lt;strong&gt;Inception&lt;/strong&gt;. Following Leonardo DiCaprio as Cobb on his struggle to get back to his children, the film introduced the unique concept of navigating through dreams - and dreams within dreams. At the time I saw the movie, I was staying at a rented holiday house in Falmouth, Massachusetts on the southern tip of Cape Cod. It was the appropriate New England setting for me to stumble upon Dennis Lehane&amp;rsquo;s novel, Shutter Island, as I was shuffling through a stranger&amp;rsquo;s bookshelf. &lt;strong&gt;Shutter Island&lt;/strong&gt; had just been adapted to the big screen by Martin Scorsese a couple months before Inception and also starred DiCaprio, this time as Teddy Daniels, a U.S. marshal investigating a missing patient case at a hospital for the criminally insane off the coast of Boston Harbor.&lt;/p&gt;
-
-&lt;p&gt;Two films with drastically different tones and plots, and yet deeply rooted similarities - beyond just the Leo-connection! - which didn&amp;rsquo;t come to mind until I opened Lehane&amp;rsquo;s book. The first thing I saw was the epigraph. A short and deceptively trivial extract from &lt;strong&gt;Questions of Travel&lt;/strong&gt;, by Elizabeth Bishop.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;hellip; must we dream our dreams
-and have them, too?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;the-spinning-tabletop&#34;&gt;The Spinning Tabletop&lt;/h3&gt;
-
-&lt;p&gt;In her poem, Bishop ponders on the need to travel if one can rely on his or her own mind and imagination. How can that apply to a cop trapped on a gloomy island? The movie version of Shutter Island is faithful to the book in the way it uses the protagonist&amp;rsquo;s dreams - or rather, nightmares - as a periscope into his subconscious to set up clues for a final shocking twist. We learn that Teddy Daniels is not a cop, but a patient of the mental institution, living out his own fantasy. The reveal is rendered even more effective as we follow the story from Teddy&amp;rsquo;s perspective and are drawn into his paranoia. We are on his side. We ask ourselves until the very end: Is he sane or mad? What was in his head and what actually happened? What was real and what was a dream?&lt;/p&gt;
-
-&lt;p&gt;These very same questions and another enigmatic ending are what made Inception a cultural phenomenon. The famous last shot of a spinning tabletop - the embodiment of DiCaprio&amp;rsquo;s character&amp;rsquo;s grasp on reality - left audiences without a definite answer. Countless internet theories argued whether he had in fact been reunited with his family or if this was just one of the many dreams of his children we see over the course of the movie. In that sense, both stories draw upon the Freudian interpretation of dreams as &amp;ldquo;wish fulfilment&amp;rdquo;. The characters see what they want to see as their own unconscious way to resolve a past emotional clash.&lt;/p&gt;
-
-&lt;p&gt;Inception is highly reminiscent of Edgar Allan Poe&amp;rsquo;s poem from 1849, &lt;strong&gt;&lt;a href=&#34;http://www.poetryfoundation.org/poem/237388&#34; target=&#34;_blank&#34;&gt;&amp;lsquo;A Dream Within a Dream&amp;rsquo;&lt;/a&gt;&lt;/strong&gt;, which also deals with the ambiguity of reality.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;hellip;Is all that we see or seem
-But a dream within a dream?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;While I couldn&amp;rsquo;t find an interview where Christopher Nolan cites the poem as an inspiration, it ties into the comparison between Inception and Shutter in more ways than one.&lt;/p&gt;
-
-&lt;h3 id=&#34;trauma-of-loss&#34;&gt;Trauma of Loss&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;img src=&#34;/img/trauma.png&#34; alt=&#34;trauma&#34; /&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt;Cobb and Mal (Inception) - Teddy and Dolores (Shutter Island)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Did you know that the word &amp;lsquo;trauma&amp;rsquo; comes from the Greek for &amp;lsquo;wound&amp;rsquo;? And what is the German word for &amp;lsquo;dream&amp;rsquo;? Traum. Ein Traum. Wounds can create monsters, and you, you are wounded, Marshal.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This powerful quote from the movie Shutter Island - which is not in the book - speaks volumes about Teddy&amp;rsquo;s mindset and could also easily apply to Cobb in Inception. Their trauma, wounds and dreams share a common tragic origin. Just as Edgar Allan Poe in &amp;lsquo;A Dream Within a Dream&amp;rsquo; begins by stating &amp;ldquo;Take this kiss upon the brow! And, in parting from you now&amp;rdquo;, the catalyst for the lead&amp;rsquo;s inner conflict in both films is the loss of his wife. The wives of Shutter Island and Inception are not exactly &amp;ldquo;ideal&amp;rdquo; partners. Their fatal actions leave in their wake much grief and pain, living up to their names: Dolores and Mal respectively (from Latin, meaning sorrow and evil). Both fall into manic depressions, losing track of reality. Dolores drowns her children before asking her husband to kill her. Mal commits suicide after threatening to take her son and daughter with her.&lt;/p&gt;
-
-&lt;p&gt;They continue to appear in their husbands&amp;rsquo; dreams not only as loving memories but also as mysterious antagonistic figures. We moreover learn that both Cobb and Teddy had their share of responsibility in their wives&amp;rsquo; fate, adding to their distress and justifying the sense of guilt expressed in their nightmares.&lt;/p&gt;
-
-&lt;h3 id=&#34;lost-at-sea&#34;&gt;Lost at Sea&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/inception.png&#34; alt=&#34;inception&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The last point I wanted to mention relates to the opening sequence in Inception, as pictured above. The first images are prolonged shots of waves crashing against the shore in slow motion. Finally, we see DiCaprio, lying barely conscious on the beach, reaching out - in vain - for what seems to be his children making a sand castle in the distance. Hallucination? A dream within a dream. This shore, clawing away at crumbling buildings, is but an imaginary state of &amp;ldquo;limbo&amp;rdquo; where the mind loses itself.&lt;/p&gt;
-
-&lt;p&gt;There is an unavoidable resemblance between this scene and Poe&amp;rsquo;s poem. He indeed laments about a &amp;ldquo;pitiless wave&amp;rdquo; on a &amp;ldquo;a surf-tormented shore&amp;rdquo; and speaks of holding to &amp;ldquo;grains of golden sand&amp;rdquo; throughout &amp;lsquo;A Dream Within a Dream&amp;rsquo; to symbolize death and time passing.&lt;/p&gt;
-
-&lt;p&gt;Waves and the sea are ever-present threats on Shutter Island, particularly through the protagonist&amp;rsquo;s eyes. We are constantly reminded that swimming off towards the mainland would in all certainty be fatal. Water is also there in Teddy&amp;rsquo;s dreams as a dangerous entity. In the book, the sentence &amp;ldquo;why are you all wet?&amp;rdquo; is repeated without clear meaning. It is only at the end that the reader is told this was the last thing he said to his wife, before realizing she had gone out to drown their children.&lt;/p&gt;
-
-&lt;p&gt;I found these many connections, while not obvious at first glance, to be difficult to &amp;ldquo;unsee&amp;rdquo; and speak for the unique qualities of dreams as storytelling tools. They purposefully disorientate as much as subtly divulge information on the characters. It is not surprising for Edgar Allan Poe, Dennis Lehane and Christopher Nolan - adepts of the strange and mysterious - to have this common interest.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Do you see any other similarities between the movies, or with any other work? Let me know in a comment!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/dreams.png&#34; alt=&#34;dreams&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
