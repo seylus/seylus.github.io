@@ -7,17 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
-    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 05 Oct 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>“We can’t do it on our own!”—Integrating stakeholder and scientific knowledge of future flood risk to inform climate change adaptation planning in a coastal region</title>
+      <link>/publication/env-sci-pol1/</link>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/env-sci-pol1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An integrated 1D–2D hydraulic modelling approach to assess the sensitivity of a coastal region to compound flooding hazard under climate change</title>
-      <link>/publication/journal-article/</link>
+      <link>/publication/nat-haz1/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0200</pubDate>
       
-      <guid>/publication/journal-article/</guid>
+      <guid>/publication/nat-haz1/</guid>
       <description></description>
     </item>
     

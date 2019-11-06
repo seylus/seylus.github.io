@@ -6,8 +6,17 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
-    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Oct 2019 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>“We can’t do it on our own!”—Integrating stakeholder and scientific knowledge of future flood risk to inform climate change adaptation planning in a coastal region</title>
+      <link>/publication/env-sci-pol1/</link>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/env-sci-pol1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>[R] Incidence of Thyroid Cancer in post-Chernobyl Belarus - Making an Animated Map</title>
@@ -130,10 +139,10 @@
     
     <item>
       <title>An integrated 1D–2D hydraulic modelling approach to assess the sensitivity of a coastal region to compound flooding hazard under climate change</title>
-      <link>/publication/journal-article/</link>
+      <link>/publication/nat-haz1/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0200</pubDate>
       
-      <guid>/publication/journal-article/</guid>
+      <guid>/publication/nat-haz1/</guid>
       <description></description>
     </item>
     
@@ -329,72 +338,6 @@ ggplot() +
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The environmental paradox behind the Tianjin explosions</title>
-      <link>/post/the-environmental-paradox-behind-the-tianjin-explosions/</link>
-      <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/post/the-environmental-paradox-behind-the-tianjin-explosions/</guid>
-      <description>
-
-&lt;p&gt;From water scarcity to air pollution, without forgetting world-leading greenhouse gas emissions, China is facing a multi-faceted environmental crisis. I was able to witness the extent of the issue first hand when I studied Environmental Management at Tsinghua University in Beijing as part of a joint program with the French university Mines ParisTech. The resounding blow of the August 12th explosions in Tianjin - which killed over a hundred people - has now pulled me back to that time spent in the &amp;ldquo;Middle Kingdom&amp;rdquo;. Amidst the apparent lack of available information about the disaster and &lt;a href=&#34;http://www.theguardian.com/world/2015/aug/17/tianjin-explosions-fears-over-pollution-as-chinese-media-lambasts-officials&#34; target=&#34;_blank&#34;&gt;fears of cyanide pollution&lt;/a&gt;, a memory that stands out is my field trip to Tianjin in 2013, which highlights a revealing paradox.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/post/tianjin/explosion.png&#34; alt=&#34;cars&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Our visit consisted in two stops: the &lt;strong&gt;Sino-Singaporean Tianjin Eco-city&lt;/strong&gt; and the &lt;strong&gt;Tianjin Economic -Technological Development Area&lt;/strong&gt; (TEDA). These are exciting places to be in for anyone interested in the environment. My classmates and I were indeed amazed by the level of commitment shown for concepts ranging from sustainable cities to industrial ecology and circular economy. We had set foot on the flagship projects of a country aggressively promoting innovative solutions to serious environmental issues. Jump forward two years, they are now within walking distance (that&amp;rsquo;s really close in China) from the remains of a devastating industrial explosion and potentially deadly chemical leaks.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;img src=&#34;/post/tianjin/teda.png&#34; alt=&#34;teda&#34; /&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt;Large model of the Tianjin Economic Technological Development Area (TEDA) presented to my class in 2013&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;before-the-explosions-tianjin-s-giant-leaps-towards-sustainable-development&#34;&gt;Before the explosions: Tianjin&amp;rsquo;s giant leaps towards sustainable development&lt;/h3&gt;
-
-&lt;p&gt;There is a drastic contrast between the image of Tianjin that we have been getting this week and the one I brought back from my visit. It is difficult to imagine from the &lt;a href=&#34;https://www.youtube.com/watch?v=HfXmG3GdAig&#34; target=&#34;_blank&#34;&gt;shocking videos&lt;/a&gt; of the blast that less than 10 kms away are areas that strive for an exemplary socio-economic and environmental performance.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.tianjinecocity.gov.sg/bg_intro.htm&#34; target=&#34;_blank&#34;&gt;Tianjin Eco-city&lt;/a&gt; for instance looks to build &amp;ldquo;a thriving city which is socially harmonious, environmentally-friendly and resource-efficient&amp;rdquo;. Started in 2007, the 30 km2 neighbourhood&amp;rsquo;s strategy is to abide by careful planning rules through the integrated management of water, waste, green areas, transport and land use.&lt;/p&gt;
-
-&lt;p&gt;The eco-city itself is set within the boundaries of &lt;a href=&#34;http://www.ecoteda.org/english/show.php?itemid=4&#34; target=&#34;_blank&#34;&gt;TEDA&lt;/a&gt; (泰达, literally: &amp;ldquo;peace&amp;rdquo; or &amp;ldquo; prosperity&amp;rdquo;), a zone created in 1984 as one of the first industrial clusters in China. The area, which hosts international companies from a wide range of sectors, has since 2000 carried out a transformation to an &lt;strong&gt;Eco-Industrial Park&lt;/strong&gt; (EIP). Taking advantage of the proximity and diversity of a large number of industries, an EIP promotes the sharing of resources, by-products and services to increase the efficiency of the area as a whole. In TEDA, these growing synergies have notably allowed for &lt;a href=&#34;http://www.mdpi.com/2071-1050/6/9/6325/pdf&#34; target=&#34;_blank&#34;&gt;significant CO2 emissions reductions and to avoid large quantities of waste&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Both projects represent a genuine dedication to sustainable development that many western countries could learn from. And yet since August 12th, I don&amp;rsquo;t think &amp;ldquo;harmony&amp;rdquo; and &amp;ldquo;prosperity&amp;rdquo; are the words on everyone&amp;rsquo;s lips in Tianjin. The contradiction brings forward a deep-rooted problem.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-two-speed-race-against-the-environmental-crisis&#34;&gt;A two-speed race against the environmental crisis&lt;/h3&gt;
-
-&lt;p&gt;China&amp;rsquo;s environmental struggle is a pressing issue. As &lt;a href=&#34;http://berkeleyearth.org/wp-content/uploads/2015/08/China-Air-Quality-Paper-July-2015.pdf&#34; target=&#34;_blank&#34;&gt;a study from Berkeley&lt;/a&gt; recently reiterated for example, deteriorating air quality is having a considerable impact on human health in highly populated regions of the country. Children in Beijing will even tell you what PM2.5 is (dangerous particulate matter) !&lt;/p&gt;
-
-&lt;p&gt;The Chinese government has increasingly made it clear in recent years that environmental protection was at the top of its agenda. In 2014, General Secretary &lt;a href=&#34;http://www.theguardian.com/environment/chinas-choice/2014/apr/25/china-environment-law-fines-for-pollution&#34; target=&#34;_blank&#34;&gt;Xi Jinping &amp;ldquo;declared war&amp;rdquo; on pollution&lt;/a&gt;, arguing that it was &amp;ldquo;nature&amp;rsquo;s red-light warning against the model of inefficient and blind development&amp;rdquo;. Alongside harsher laws against polluters, the government has also made large investments to support sustainable projects, such as TEDA.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;img src=&#34;/post/tianjin/view.jpg&#34; alt=&#34;view&#34; /&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt;The view from my dorm at Tsinghua University on a pollution day qualified as &amp;ldquo;extremely unhealthy&amp;rdquo; (2013-12)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;In the light of all these efforts, the Tianjin explosions &lt;strong&gt;raise many questions&lt;/strong&gt;. How could such a disaster occur in one of the most important ports in the world? While the actual reasons remain unknown, the state of China&amp;rsquo;s Environmental and Corporate Social Responsibility (CSR) is telling. Although reporting has been on the rise, the general lack of consequences and control has allowed most firms to ignore their own official sustainability expectations. The unfair treatment of workers, the disregard for regulations and standards as well as cases of pollution of water, air and soils by factories are hence &lt;a href=&#34;http://www.wsj.com/articles/china-cracks-down-on-water-polluting-industries-1429267822&#34; target=&#34;_blank&#34;&gt;still widespread&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The aftermath of the accident&lt;/strong&gt; is just as puzzling. A week has passed and it is still unclear whether there remains a threat to the environment and Tianjin&amp;rsquo;s inhabitants. Distrust of governmental reports and a general lack of information have pushed some people living around the blast to leave the city as the &lt;a href=&#34;http://www.nytimes.com/2015/08/19/world/asia/china-identifies-executives-of-company-linked-to-tianjin-explosions.html?_r=0&#34; target=&#34;_blank&#34;&gt;New York Times showed yesterday&lt;/a&gt;. Anyone who has been to China has experienced censorship in some shape or form, even if it is as simple as a blocked access to Facebook (the horror&amp;hellip;). Here lies another contradiction. Transparency is indeed a key principle behind CSR. It is therefore difficult for the government to expect private companies to respect sustainable performance goals as long as the censor-culture still exists.&lt;/p&gt;
-
-&lt;p&gt;While the whole story is more complex, the symbolic proximity of forward-looking projects to such alarming devastation only further fuels the notion that there are still two Chinas when it comes to sustainability. The country has the resources, capacity and knowledge to work towards its environmental goals, but still needs to &lt;strong&gt;translate its ambitions&lt;/strong&gt; within society and notably with certain members of the industrial sector.&lt;/p&gt;
 </description>
     </item>
     
