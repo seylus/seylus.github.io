@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Ulysse Pasquier {year}</copyright>
-    <lastBuildDate>Sat, 05 Oct 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Charlie Hebdo</title>
+      <link>/tags/charlie-hebdo/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/charlie-hebdo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>France</title>
+      <link>/tags/france/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/france/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Islam</title>
+      <link>/tags/islam/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/islam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Religion</title>
+      <link>/tags/religion/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/religion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secularism</title>
+      <link>/tags/secularism/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/secularism/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Climate change adaptation</title>
@@ -225,15 +270,6 @@
       <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/environment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Religion</title>
-      <link>/tags/religion/</link>
-      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/religion/</guid>
       <description></description>
     </item>
     
@@ -459,15 +495,6 @@
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>/tags/cop21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>France</title>
-      <link>/tags/france/</link>
-      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/france/</guid>
       <description></description>
     </item>
     
